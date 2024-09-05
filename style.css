@@ -13,7 +13,7 @@ body {
 /* Navigation Bar */
 header{
   background: #55d6aa;
-  position: fixed;
+  position:absolute;
   top: 0;
   z-index: 1000;
   width: 100%;
@@ -146,6 +146,8 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 75%;
+  margin-left: 15%;
  
 }
 #skills{
@@ -391,8 +393,9 @@ h2 {
 
 .recommendation {
   font-style: italic;
+  overflow-y: auto;
   text-align: left;
-  width: 21.875rem;
+  width: 100%;
   padding: 1rem;
   background-color: #fff;
   border-radius: 11px;
